@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<title>InstaFeed</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+	<link rel="stylesheet" type="text/css" href="css/mian.css"/>
+	<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/responsive.css">
+	<meta name="viewport"content="width =device-width,initial-scale= 1.0"> 
+</head>
+<body>
+	<h2>e-musiqChartApp@last.fm</h2>
+	<div class="SearchArea">
+		<input type = "text" class ="user_input" placeholder="Enter the country you want to view it's Top Fifty Tracks" value= "Nigeria"  />
+		<button>countrychartsearch</button>
+	</div>
+	<hr></hr>
+	<!--Top Five Tracks in the world -->
+	<div class="trackswrapper">
+		<ul class= "toptracks">
+		</ul>
+	</div>
+	<!--Top Ten Artists in the world -->
+	<div class ="artistwrapper">
+		<div class ="artistcontainer">
+			<ul class="artistList">
+			</ul>
+		</div>
+	</div>
+	<div class="ChartsHeading">
+	</div>
+		<div class="countrytrackchartcontainer">
+			<!--<h1> Top Tracks From Country </h1>-->
+			<ul class=" countrytoptrackslist">
+				
+			</ul>
+		</div>
+		<div class="CountryHeading">
+		</div>
+		<!--Top Ten Artists From a Country -->
+		<div class="countryartistchartContainer">
+		<ul class = "countryartsistcharts">
+		</ul><!--<h1>Top Artist From Country<h1>-->
+		</div>
+			
+		
+	<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src="js/charts.js"></script>
+</body>
+</html>
