@@ -1,0 +1,52 @@
+@media screen and (max-width:480px)
+{
+	.SearchArea
+	{	
+		width: 50%;
+		margin:0 auto;
+		position: relative;
+	}
+	.user_input
+	{
+		margin:0 auto;
+		margin-top: 90px;
+
+
+	}
+
+	button
+	{
+		margin-right: 0 auto;
+
+	}
+
+	.trackswrapper , .artistcontainer
+	{
+		margin: 0 auto ;
+		margin-top: 40px;
+	}
+	.toptracks li , .artistList li
+	{
+		margin-left: 80px;
+		text-align: center;
+	}
+
+	.countrytrackchartcontainer , .countryartistchartContainer
+	{
+		margin: 0 auto ;
+		margin-top: 40px;
+
+	}
+
+	.countrytoptrackslist li , .countryartsistcharts li 
+
+	{
+		margin-left: 80px;
+		text-align: center;
+
+	}
+	
+	
+
+	}
+	
